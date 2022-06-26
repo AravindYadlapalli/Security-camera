@@ -1,6 +1,6 @@
 import cv2
 import winsound
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 while cam.isOpened():
     ret, frame1 = cam.read()
     ret, frame2 = cam.read()
