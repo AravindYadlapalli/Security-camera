@@ -19,4 +19,4 @@ while cam.isOpened():
         winsound.PlaySound('alert.wav', winsound.SND_ASYNC)
     if cv2.waitKey(10) == ord('q'):
         break
-    cv2.imshow('AravindYadlapalli Cam', frame1)
+    cv2.imshow('Aravind Camera', frame1)
